@@ -3,5 +3,17 @@
 }
 
 body {
-    background-color: #fff9f0;
+    background-color: #2b2b2b;
+}
+
+a {
+    color: aliceblue;
+    font-family: 'Gruppo', sans-serif;
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(80, 255, 77);
+    font-family: 'Gruppo', sans-serif;
+    text-decoration: none;
 }
