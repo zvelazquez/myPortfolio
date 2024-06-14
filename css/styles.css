@@ -19,7 +19,7 @@ nav {
     justify-content: flex-end;
     width: 100%;
     padding: .25em 3em;
-    padding-top: .8em;
+    padding-top: 1em;
 	margin: auto;
     text-align: center;
     background-color: #131313;
@@ -44,7 +44,7 @@ nav a {
     text-transform: uppercase;
     /* margin: 15px; */
     font-family: Archivo-Thin, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 1px;
     padding: .25em .3em;
     border-radius: 7px;
