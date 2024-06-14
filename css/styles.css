@@ -7,9 +7,9 @@
 
 body {
     background-color: #131313;
-    /* background-color: aqua; */
 }
 
+/* NAVIGATION BAR */
 nav {
     position: sticky;
     z-index: 2;
@@ -42,7 +42,6 @@ nav a {
     color: #808596;
     text-decoration: none;
     text-transform: uppercase;
-    /* margin: 15px; */
     font-family: Archivo-Thin, sans-serif;
     font-size: 15px;
     letter-spacing: 1px;
@@ -61,10 +60,6 @@ nav a {
 .nav-links a.active {
 	color: #fdfdfd;
     font-family: Archivo-Light, sans-serif;
-    /* background-color: #ffffff;
-    border: 1.5px solid #ffffff;
-    border-radius: 7px;
-    padding: 3px 7px; */
 }
 
 .nav-links a.active:hover {
@@ -79,15 +74,10 @@ li {
     display: inline;
 }
 
-/* a {
-    color: aliceblue;
-    font-family: Archivo-Thin, sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+/* BODY CONTENT */
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #d8dadc;
+    font-weight: lighter;
+    font-size: 14px;
 }
-
-.active {
-    color: rgb(80, 255, 77);
-} */
-
