@@ -85,21 +85,21 @@ li {
     flex-direction: row;
     align-content: center;
     margin: 0% 70px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .left-cell{
     width: 50%;
     margin: 2% 3% 2% 0%;
     padding-top: 2%;
-    background-color: rgb(21, 69, 69);
+    /* background-color: rgb(21, 69, 69); */
 }
 
 .right-cell{
     width: 50%;
     margin: 2% 0% 2% 3%;
     padding-top: 2%;
-    background-color: rgb(21, 69, 69);
+    /* background-color: rgb(21, 69, 69); */
 }
 
 h2 {
