@@ -154,5 +154,6 @@ footer p {
     font-family: Archivo-Thin, sans-serif;
     color: #555965;
     font-size: 12px;
-    padding: 7px;
+    /* padding: 3px 7px; */
+    line-height: 18px;
 }
