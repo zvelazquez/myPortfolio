@@ -80,55 +80,6 @@ li {
 
 /* BODY CONTENT */
 
-.box {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    margin: 0% 70px;
-    /* background-color: red; */
-}
-
-.left-cell{
-    width: 50%;
-    margin: 2% 3% 2% 0%;
-    padding-top: 2%;
-    /* background-color: rgb(21, 69, 69); */
-}
-
-.right-cell{
-    width: 50%;
-    margin: 2% 0% 2% 3%;
-    padding-top: 2%;
-    /* background-color: rgb(21, 69, 69); */
-}
-
-h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-family: Archivo-Bold, sans-serif;
-    text-align: right;
-    /* font-size: 175px; */
-    font-size: 10em;
-    width: auto;
-    color: #6d779b;
-    margin-top: 7%;
-    margin-left: 5%;
-    line-height: 135px;
-}
-
-p {
-    font-family: Be Vietnam Pro, sans-serif;
-    color: #d8dadc;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 22px;
-}
-
-.bio-p {
-    margin: 10% 15% 15% 0%;
-}
-
 /* FOOTER */
 footer {
     margin: auto;
