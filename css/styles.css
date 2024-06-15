@@ -95,13 +95,13 @@ footer {
 }
 
 footer img {
-    width: 2.75%;
-    padding: 7px;
+    width: 40px;
+    padding: 0px 7px;
 }
 
 footer p {
     font-family: Archivo-Thin, sans-serif;
-    color: #808596;
+    color: #555965;
     font-size: 12px;
     padding: 7px;
 }
