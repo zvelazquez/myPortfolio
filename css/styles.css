@@ -50,10 +50,14 @@ nav a {
     margin: 15px;
 }
 
-.nav-links a:hover {
-    border: .75px solid #808596;
+.nav-links a {
+    border: .75px solid #131313;
     border-radius: 7px;
     padding: 3px 7px;
+}
+
+.nav-links a:hover {
+    border: .75px solid #808596;
     transition-duration: 300ms;
 }
 
@@ -137,8 +141,17 @@ footer {
 }
 
 footer img {
-    width: 40px;
+    width: 30px;
     padding: 0px 7px;
+    margin: 0px 7px;
+    border: 1px solid #131313;
+    border-radius: 7px;
+    padding: 2px 2px;
+}
+
+footer img:hover {
+    border: 1px solid #808596;
+    transition-duration: 300ms;
 }
 
 footer p {
