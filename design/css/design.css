@@ -9,6 +9,7 @@
 
 .left-cell{
     display: flex;
+    flex-direction: column;
     position: fixed;
     justify-content: flex-end;
     width: 25%;
@@ -87,6 +88,8 @@
 
 .body-text {
     font-family: Be Vietnam Pro, sans-serif;
+    text-align: justify;
+    padding-left: 7vw;
     color: #d8dadc;
     font-weight: lighter;
     font-size: 14px;
