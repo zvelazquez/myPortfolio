@@ -35,6 +35,11 @@
     border: 1px solid #808596;
 }
 
+.masonry-with-columns div img:hover {
+    opacity: 50%;
+    transition-duration: 300ms;
+}
+
 /* TEXT */
 .header {
     display: flex;
