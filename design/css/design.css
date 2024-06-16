@@ -35,11 +35,6 @@
     border: 1px solid #808596;
 }
 
-.masonry-with-columns div img:hover {
-    opacity: 50%;
-    transition-duration: 300ms;
-}
-
 /* TEXT */
 .header {
     display: flex;
@@ -52,7 +47,7 @@
     font-size: 8vw;
     line-height: .85em;
     width: auto;
-    color: #bcc7ec;
+    color: #a3aed2;
 }
 
 .body-text {
