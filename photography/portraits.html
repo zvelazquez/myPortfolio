@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <title>SERIES | PORTRAITS</title>
+      <link rel="stylesheet" href="../css/styles.css">
+      <link rel="stylesheet" href="css/photography.css">
+      <link rel="stylesheet" href="css/portraits.css">
+      <link rel="icon" type="image/png" href="../img/Website-Logo.png">
+    </head>
+
+    <body>
+        
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/Website-Logo_Slate.png">
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="../design/design.html">design</a></li>
+                    <li><a class="active" href="photography.html" style="color: #fdfdfd; background-color: #131313;">photography</a></li>
+                    <li><a href="../art&illustration/art.html">art / illustration</a></li>
+                    <li><a href="../about/about.html">about</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="box">
+                <div class="left-cell">
+                    <p class="project-name">Port-<br>raits</p>
+                    <br>
+                    <br>
+                    <p class="description">
+                        Something would go here so that the audience has a better idea about what this page is about, and how they can learn a little more about the breadth of the projects and the different types of stuff and design approaches or design disciplines that are showcased here.
+                    </p>
+                </div>
+                <div class="right-cell">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 13</div>
+                          <img src="img/portrait-1.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 13</div>
+                          <img src="img/portrait-4.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 13</div>
+                          <img src="img/portrait-2.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">4 / 13</div>
+                          <img src="img/portrait-3.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">5 / 13</div>
+                          <img src="img/portrait-5.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">6 / 13</div>
+                          <img src="img/portrait-7.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">7 / 13</div>
+                          <img src="img/portrait-6.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">8 / 13</div>
+                          <img src="img/portrait-10.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">9 / 13</div>
+                          <img src="img/portrait-9.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">10 / 13</div>
+                          <img src="img/portrait-8.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">11 / 13</div>
+                          <img src="img/portrait-11.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">12 / 13</div>
+                          <img src="img/portrait-13.JPG" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">13 / 13</div>
+                          <img src="img/portrait-12.JPG" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                          <span class="dot" onclick="currentSlide(4)"></span> 
+                          <span class="dot" onclick="currentSlide(5)"></span> 
+                          <span class="dot" onclick="currentSlide(6)"></span> 
+                          <span class="dot" onclick="currentSlide(7)"></span> 
+                          <span class="dot" onclick="currentSlide(8)"></span> 
+                          <span class="dot" onclick="currentSlide(9)"></span> 
+                          <span class="dot" onclick="currentSlide(10)"></span> 
+                          <span class="dot" onclick="currentSlide(11)"></span> 
+                          <span class="dot" onclick="currentSlide(12)"></span> 
+                          <span class="dot" onclick="currentSlide(13)"></span>    
+                        </div>
+                    </div>
+                    <script>
+                        let slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                        }
+                    </script>    
+                </div>
+            </div>
+        </main>
+
+    </body>
+
+    <footer>
+        <a href="mailto:zv.design.art@gmail.com"><img src="../img/email-logo.png"></a>
+        <a href="https://www.behance.net/zanettvelazquez/projects"><img src="../img/behance-logo.png"></a>
+        <a href="https://www.instagram.com/zeevee_studio/"><img src="../img/instagram-logo.png"></a>
+        <a href="https://www.linkedin.com/in/zanett-v-36572623b/"><img src="../img/linkedin-logo.png"></a>
+        <br>
+        <p>Site designed and coded by Zanett Velazquez <br> © 2024</p>
+    </footer>
+
+</html>
