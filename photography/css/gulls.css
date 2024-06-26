@@ -24,6 +24,19 @@
   line-height: 22px;
 }
 
+.arrow {
+  color: rgb(65, 65, 65);
+  margin: 0 30vw 2vw .75vw;
+  font-size: 2vw;
+}
+
+.arrow:hover {
+  color: #a9bdc0;
+  margin: 0 0 2vw 0;
+  font-size: 2vw;
+  transition-duration: 500ms;
+}
+
 
 /* SLIDESHOW */
 .mySlides {
