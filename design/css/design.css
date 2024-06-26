@@ -22,7 +22,7 @@
 
 /* MASONRY GALLERY */
 .masonry-with-columns {
-    columns: 6 250px;
+    columns: 6 300px;
     column-gap: 2rem;
     padding: 0 0 0 2rem;
 }
@@ -32,7 +32,7 @@
     margin: 0 2rem 2rem 0;
     display: inline-block;
     width: 100%;
-    border: 1px solid #808596;
+    /* border: 1px solid #808596; */
 }
 
 .masonry-with-columns div img:hover {
@@ -49,10 +49,11 @@
     font-weight: 900;
     text-transform: uppercase;
     text-align: right;
-    font-size: 8vw;
+    font-size: 8.5vw;
     line-height: .85em;
     width: auto;
-    color: #a3aed2;
+    color: #131313;
+    -webkit-text-stroke: 2px #8e97b6;
 }
 
 .body-text {
