@@ -33,7 +33,7 @@
     margin: 0 1rem 1rem 0;
     display: inline-block;
     width: 100%;
-    border: 1px solid #808596;
+    /* border: 1px solid #808596; */
 }
 
 .masonry-with-columns div img:hover {
