@@ -52,13 +52,14 @@
     font-size: 6vw;
     line-height: .85em;
     width: auto;
-    color: #bcc7ec;
+    color: #131313;
+    -webkit-text-stroke: 2px #8e97b6;
 }
 
 .body-text {
     font-family: Be Vietnam Pro, sans-serif;
     text-align: justify;
-    padding-left: 7vw;
+    padding-left: 3vw;
     color: #d8dadc;
     font-weight: lighter;
     font-size: 14px;
